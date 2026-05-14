@@ -73,4 +73,4 @@ public class SleeplessNightsAnalyzer
         return firstSession.getStart()
                 .toLocalDate();
     }
-}   
+}
