@@ -2,7 +2,7 @@ package ru.yandex.practicum.sleeptracker;
 
 import java.util.List;
 
-class MinSleepDurationAnalyzer
+class MinSleepDurationAnalysis
         implements SleepAnalyzer {
 
     @Override

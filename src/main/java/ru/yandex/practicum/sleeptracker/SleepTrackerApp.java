@@ -11,10 +11,10 @@ public class SleepTrackerApp {
 
     private static final List<SleepAnalyzer> ANALYZERS =
             List.of(
-                    new CountSleepSessionsAnalyze(),
-                    new MinSleepDurationAnalyzer(),
-                    new MaxSleepDurationAnalyzer(),
-                    new AvgSleepDurationAnalyzer(),
+                    new CountSleepSessionsAnalyzer(),
+                    new MinSleepDurationAnalysis(),
+                    new MaxSleepDurationAnalysis(),
+                    new AvgSleepDurationAnalysis(),
                     new BadQualitySleepDurationAnalyzer(),
                     new SleeplessNightsAnalyzer(),
                     new ChronotypeAnalyzer()

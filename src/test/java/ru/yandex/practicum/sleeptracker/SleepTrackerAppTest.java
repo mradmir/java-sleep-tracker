@@ -24,8 +24,8 @@ public class SleepTrackerAppTest {
                 )
         );
 
-        CountSleepSessionsAnalyze analyzer =
-                new CountSleepSessionsAnalyze();
+        CountSleepSessionsAnalyzer analyzer =
+                new CountSleepSessionsAnalyzer();
 
         SleepAnalysisResult result =
                 analyzer.apply(sessions);
