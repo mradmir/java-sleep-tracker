@@ -15,7 +15,7 @@ public class SleepTrackerApp {
                     new MinSleepDurationAnalysis(),
                     new MaxSleepDurationAnalysis(),
                     new AvgSleepDurationAnalysis(),
-                    new BadQualitySleepDurationAnalyzer(),
+                    new BadQualitySleepAnalyzer(),
                     new SleeplessNightsAnalyzer(),
                     new ChronotypeAnalyzer()
             );

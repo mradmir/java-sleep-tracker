@@ -2,7 +2,7 @@ package ru.yandex.practicum.sleeptracker;
 
 import java.util.List;
 
-class BadQualitySleepDurationAnalyzer
+class BadQualitySleepAnalyzer
         implements SleepAnalyzer {
 
     @Override
