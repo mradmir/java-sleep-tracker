@@ -29,6 +29,11 @@ public class SleepingSession {
     }
 
     public long getDurationInMinutes() {
+
+        if (start == null || end == null) {
+            return 0;
+        }
+
         return Duration.between(start, end).toMinutes();
     }
 
